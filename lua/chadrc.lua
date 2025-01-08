@@ -6,12 +6,19 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "ayu_dark",
 
 	 hl_override = {
 	 	Comment = { italic = true },
 	 	["@comment"] = { italic = true },
 	 },
+}
+
+M.ui = {
+ statusline = {
+    theme = "default",
+    separator_style = "round",
+  }
 }
 
 return M
